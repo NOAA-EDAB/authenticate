@@ -1,0 +1,10 @@
+pandoc: 2.7.3
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles:
+  authenticate: authenticate.html
+last_built: 2020-12-29T19:29Z
+urls:
+  reference: https://andybeet.github.io/authenticate//reference
+  article: https://andybeet.github.io/authenticate//articles
+

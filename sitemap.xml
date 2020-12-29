@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://andybeet.github.io/authenticate//index.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//reference/authenticate.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//reference/loginServer.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//reference/loginUI.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//reference/logoutServer.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//reference/logoutUI.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//reference/runAuthenticate.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//reference/server.html</loc>
+  </url>
+  <url>
+    <loc>https://andybeet.github.io/authenticate//articles/authenticate.html</loc>
+  </url>
+</urlset>
