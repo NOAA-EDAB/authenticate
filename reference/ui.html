@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Appearance of loginUI — loginUI • authenticate</title>
+<title>Starts Authenticate shiny app — ui • authenticate</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,9 @@
 
 
 
-<meta property="og:title" content="Appearance of loginUI — loginUI" />
-<meta property="og:description" content="The login User Interface design elements are controlled.
-This loginUI Module is for use with loginServer module." />
+<meta property="og:title" content="Starts Authenticate shiny app — ui" />
+<meta property="og:description" content="This is the UI (User Interface) portion of the app.
+It contains the layout and look of the app and the parameters that get passed to the server portion of the app" />
 
 
 
@@ -107,74 +107,25 @@ This loginUI Module is for use with loginServer module." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Appearance of loginUI</h1>
+    <h1>Starts Authenticate shiny app</h1>
     
-    <div class="hidden name"><code>loginUI.Rd</code></div>
+    <div class="hidden name"><code>ui.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The login User Interface design elements are controlled.
-This <code>loginUI</code> Module is for use with <code><a href='loginServer.html'>loginServer</a></code> module.</p>
+    <p>This is the UI (User Interface) portion of the app.
+It contains the layout and look of the app and the parameters that get passed to the <code><a href='server.html'>server</a></code> portion of the app</p>
     </div>
 
-    <pre class="usage"><span class='fu'>loginUI</span><span class='op'>(</span>
-  <span class='va'>id</span>,
-  title <span class='op'>=</span> <span class='st'>"Please log in"</span>,
-  server_title <span class='op'>=</span> <span class='st'>"Server Name "</span>,
-  user_title <span class='op'>=</span> <span class='st'>"User Name"</span>,
-  pass_title <span class='op'>=</span> <span class='st'>"Password"</span>,
-  login_title <span class='op'>=</span> <span class='st'>"Log in"</span>,
-  error_message <span class='op'>=</span> <span class='st'>"Invalid username or password!"</span>
-<span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>ui</span><span class='op'>(</span><span class='op'>)</span></pre>
 
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>id</th>
-      <td><p>Character String. Shiny id</p></td>
-    </tr>
-    <tr>
-      <th>title</th>
-      <td><p>Character String. Header title for the login panel</p></td>
-    </tr>
-    <tr>
-      <th>user_title</th>
-      <td><p>Character String. Label for the user name text input</p></td>
-    </tr>
-    <tr>
-      <th>pass_title</th>
-      <td><p>Character String. Label for the password text input</p></td>
-    </tr>
-    <tr>
-      <th>login_title</th>
-      <td><p>Character String. Label for the login button</p></td>
-    </tr>
-    <tr>
-      <th>error_message</th>
-      <td><p>Character String. Message to display after failed login</p></td>
-    </tr>
-    </table>
 
-    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
-
-    <p>Shiny UI</p>
-    <h2 class="hasAnchor" id="reference"><a class="anchor" href="#reference"></a>Reference</h2>
-
-    
-
-<p>This code was modified from https://github.com/PaulC91/shinyauthr</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p>Other modules: 
-<code><a href='loginServer.html'>loginServer</a>()</code>,
-<code><a href='logoutServer.html'>logoutServer</a>()</code>,
-<code><a href='logoutUI.html'>logoutUI</a>()</code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>{</span>
-<span class='fu'>loginUI</span><span class='op'>(</span><span class='st'>"login"</span><span class='op'>)</span>
+<span class='fu'><a href='runAuthenticate.html'>runAuthenticate</a></span><span class='op'>(</span><span class='op'>)</span>
 <span class='op'>}</span>
+
 
 </div></pre>
   </div>
