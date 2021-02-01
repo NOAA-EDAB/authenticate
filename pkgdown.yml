@@ -3,7 +3,7 @@ pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   authenticate: authenticate.html
-last_built: 2021-01-14T22:08Z
+last_built: 2021-02-01T03:20Z
 urls:
   reference: https://andybeet.github.io/authenticate//reference
   article: https://andybeet.github.io/authenticate//articles

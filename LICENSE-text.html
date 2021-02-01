@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Logout server module — logoutServer • authenticate</title>
+<title>License • authenticate</title>
 
 
 <!-- jquery -->
@@ -18,8 +18,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
 
 <!-- bootstrap-toc -->
-<link rel="stylesheet" href="../bootstrap-toc.css">
-<script src="../bootstrap-toc.js"></script>
+<link rel="stylesheet" href="bootstrap-toc.css">
+<script src="bootstrap-toc.js"></script>
 
 <!-- Font Awesome icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
@@ -33,14 +33,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script>
 
 <!-- pkgdown -->
-<link href="../pkgdown.css" rel="stylesheet">
-<script src="../pkgdown.js"></script>
+<link href="pkgdown.css" rel="stylesheet">
+<script src="pkgdown.js"></script>
 
 
 
 
-<meta property="og:title" content="Logout server module — logoutServer" />
-<meta property="og:description" content="Shiny authentication module for use with logoutUI" />
+<meta property="og:title" content="License" />
 
 
 
@@ -59,7 +58,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-topic">
+    <div class="container template-title-body">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -71,7 +70,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <a class="navbar-link" href="../index.html">authenticate</a>
+        <a class="navbar-link" href="index.html">authenticate</a>
         <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
       </span>
     </div>
@@ -79,16 +78,16 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="../index.html">
+  <a href="index.html">
     <span class="fas fa-home fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="../articles/authenticate.html">Get started</a>
+  <a href="articles/authenticate.html">Get started</a>
 </li>
 <li>
-  <a href="../reference/index.html">Reference</a>
+  <a href="reference/index.html">Reference</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -104,65 +103,31 @@
       </header>
 
 <div class="row">
-  <div class="col-md-9 contents">
+  <div class="contents col-md-9">
     <div class="page-header">
-    <h1>Logout server module</h1>
-    
-    <div class="hidden name"><code>logoutServer.Rd</code></div>
+      <h1>License</h1>
     </div>
 
-    <div class="ref-description">
-    <p>Shiny authentication module for use with <code><a href='logoutUI.html'>logoutUI</a></code></p>
-    </div>
+<pre>“Software code created by U.S. Government employees is not subject to
+copyright in the United States (17 U.S.C. §105). The United States/Department
+of Commerce reserve all rights to seek and obtain copyright
+protection in countries other than the United States for Software authored
+in its entirety by the Department of Commerce. To this end, the Department
+of Commerce hereby grants to Recipient a royalty-free, nonexclusive
+license to use, copy, and create derivative works of the Software outside
+of the United States.”
+</pre>
 
-    <pre class="usage"><span class='fu'>logoutServer</span><span class='op'>(</span><span class='va'>input</span>, <span class='va'>output</span>, <span class='va'>session</span>, <span class='va'>active</span><span class='op'>)</span></pre>
-
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>input</th>
-      <td><p>Character String. Shiny input</p></td>
-    </tr>
-    <tr>
-      <th>output</th>
-      <td><p>shiny output</p></td>
-    </tr>
-    <tr>
-      <th>session</th>
-      <td><p>shiny session</p></td>
-    </tr>
-    <tr>
-      <th>active</th>
-      <td><p>Reactive element. Supply the returned user_auth boolean reactive from <code><a href='loginServer.html'>loginServer</a></code> here to hide/show the logout button</p></td>
-    </tr>
-    </table>
-
-    <h2 class="hasAnchor" id="notes"><a class="anchor" href="#notes"></a>Notes</h2>
-
-    
-
-<p>The reactive output of this module should be supplied as the log_out argument to the
-<code><a href='loginServer.html'>loginServer</a></code> module to trigger the logout process</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p>Other modules: 
-<code><a href='loginServer.html'>loginServer</a>()</code>,
-<code><a href='loginUI.html'>loginUI</a>()</code>,
-<code><a href='logoutUI.html'>logoutUI</a>()</code></p></div>
-
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>{</span>
- <span class='va'>logout_init</span> <span class='op'>&lt;-</span> <span class='fu'>shiny</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/shiny/man/callModule.html'>callModule</a></span><span class='op'>(</span><span class='va'>logoutServer</span>, <span class='st'>"logout"</span>,  active <span class='op'>=</span> <span class='fu'>reactive</span><span class='op'>(</span><span class='fu'>user_credentials</span><span class='op'>(</span><span class='op'>)</span><span class='op'>$</span><span class='va'>user_auth</span><span class='op'>)</span><span class='op'>)</span>
-<span class='op'>}</span>
-</div></pre>
   </div>
+
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
+
 </div>
+
 
 
       <footer>
